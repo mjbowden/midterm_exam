@@ -14,3 +14,5 @@ class ContactCreateView(CreateView):
   success_url = reverse_lazy('success')
 class Success(TemplateView):
    template_name = "success.html"
+class aboutme(TemplateView):
+    template_name = "aboutme.html"
